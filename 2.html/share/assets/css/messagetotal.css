@@ -1,0 +1,156 @@
+.txt{
+	border: 2px solid #CCCCCC;
+	outline-style:none;
+	border-radius:5px;
+	padding-left:4px;
+	background-color: #F0F0F0;
+}
+.txt:focus{
+	border: 2px solid #66CCFF;
+}
+.small{
+	height:25px;
+	width:177px;
+	font-size:20px;
+}
+.medium{
+	height:30px;
+	width:177px;
+	font-size:20px;
+}
+.large{
+	height:40px;
+	width:177px;
+	font-size:20px;
+}
+
+
+.txt_img{
+	width: 250px;
+	height: 35px;
+	border: 2px solid #cccccc;
+	border-radius:5px;
+
+}
+.txt_img:focus{
+border: 2px solid #66CCFF;
+background-color: #66CCFF;
+}
+.txt_img_i{
+	width: 72%;
+	font-size: 20px;
+	padding-left:4px;
+	height: 100%;
+	float: left;
+}
+.txt_img_i,.txt_img_i input{
+	border: 0;
+	outline-style: none;
+}
+.txt_img_s{
+	display:block;
+	float:right;
+	text-align:center;
+	color:#FFF;
+	width: 20%;
+	border-right-radius:5px;
+	font-size: 20px;
+	padding-left:4px;
+	height: 100%;
+	background-color: #CCCCCC;
+}
+.txt_focus{
+border: 2px solid #99CCFF;
+}
+.txt_img_se{
+	background-color: #99CCFF;
+}
+
+
+.button_ita{
+	margin-top:5px;
+	outline-style:none;
+	text-align:center;
+	cursor:pointer;
+	width: 70px;
+	height: 40px;
+	border-radius:5px;
+	border: 0px solid #99CCFF;
+	background-color: rgba(72, 201, 176,0.4);
+}
+.button_ita:hover{
+	background-color: rgba(72, 201, 176,0.7);
+}
+.button_ita:focus{
+	background-color: rgba(72, 201, 176,1);
+}
+.chec_i{
+
+	border:2px solid #000;
+	outline-style:none;
+	width: 40px;
+	height: 40px;
+}
+
+input[type="checkbox"] + label::before {
+    content: "\a0";  /*�����пո�*/
+    display: inline-block;
+    vertical-align: 25px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border:2px solid #CCCCCC;
+    background-color: #FFF;
+    text-indent: 10px;
+    line-height: 25px;  /*�и߲��ӵ�λ����Ԫ�ؽ��̳����ֳ�����������ߴ��Ǹ�Ԫ���и�*/
+}
+input[type="checkbox"]:checked + label::before {
+    content: "\2713";
+    width:30px;
+    height:30px;
+    font-size:20px;
+    font-weight:900;
+    background-color: yellowgreen;
+}
+input[type="checkbox"]:hover + label::before {
+    content: "\2713";
+    width:30px;
+    height:30px;
+    background-color:rgba(204,204,204,0.6);
+    color:#FFF;
+    font-weight:bolder;
+  
+}
+ table { border-collapse: collapse;}
+
+.tab{
+	width:800px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

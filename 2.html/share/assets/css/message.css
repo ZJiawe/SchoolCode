@@ -1,0 +1,103 @@
+body {
+	position: relative;
+	background-color: #F9F9F9;
+}
+
+#Barrage {
+	width: 500px;
+	height: 400px;
+	/* border:1px solid rgba(204, 204, 204,.2); */
+	border-radius: 11px;
+	position: absolute;
+	right: 20px;
+	top: 500px;
+	overflow: hidden;
+}
+
+.BarMes {
+	border-radius: 5px;
+	background-color: rgba(205, 204, 204,.4);
+	border: 1px solid rgba(204, 204, 204,.2);
+	padding: 0 10px;
+	height: 40px;
+	display: table;
+/* 文字自适应 */
+	float: right;
+}
+
+ul {
+	display: block;
+	margin-top: 0px;
+}
+
+li {
+	border-radius: 5px;
+	list-style-type: none;
+	width: 80%;
+	margin-left: 20%;
+	display: inline-block;
+	text-align: center;
+	line-height: 38px;
+	font-family: '仿宋';
+	margin-top: 10px;
+	word-break: keep-all;
+       /* 不换行 */
+	white-space: nowrap;
+        /* 不换行 */
+	overflow: hidden;
+           /* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow: ellipsis;
+    /*溢出时显示省略标记...；需与overflow:hidden;一起使用*/
+	/* border: 1px solid #000; */
+}
+
+@-webkit-keyframes anim1 {
+	0% {
+		top: 48px;
+		opacity: 1
+	}
+
+	50% {
+		top: -48px;
+		opacity: 1
+	}
+
+	75% {
+		top: -48px;
+		opacity: 0
+	}
+
+	100% {
+		top: 48px;
+		opacity: 0
+	}
+}
+
+@-webkit-keyframes anim2 {
+	0% {
+		top: 0px
+	}
+
+	25% {
+		top: -20px
+	}
+
+	50% {
+		top: -35px
+	}
+
+	75% {
+		top: -45px
+	}
+
+	100% {
+		top: -55px
+	}
+}
+
+.BarMes1:nth-child(n+1) {
+	-webkit-animation: anim2  1s  linear;
+/* linear infinite */
+	animation-fill-mode: forwards;
+}
+      
