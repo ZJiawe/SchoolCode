@@ -2,34 +2,30 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>chart</title>
+	<title>chart</title>
 		<!-- 网页图标 -->
     <link rel="shortcut icon" type="image/png" href="./img/logo.png">
 	    <!-- 引入 ECharts 文件 -->	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.common.js"></script>
 
-		<!--=== index css ===-->
-	<link href="assets/css/fixtop.css" rel="stylesheet" type="text/css">
+   <!--	 top css-->
+	<link href="assets/css/Top.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 		<div id="box">
-		<div id = "top" style="height: 80px;"> 
-		  <div id="img"> 
-		  <div>
-			  <img src="img/indexLogo.png" alt="log">
-			  <div id="text">Chart</div>
-		  </div>
-	  <div id="HASS"> 
-			  <div ><a href="index.html" >Home</a></div>
-			  <div id="About"><a href="about.html" >About</a></div>
-			  <div id="in"><a href="picwall.html" >PicWall</a></div>
-			  <div id="up"><a href="404.html" >404</a></div>
-		</div>
-	   </div>
+	  <div id="top">
+			<div id="logo"><img src="img/indexLogo.png" width="64" height="64" alt=""/></div>
+			<div id="text">Chart</div>
+			<div id="HASS">
+				<div><a href="./index.html">Home</a></div>
+				<div><a href="./SharerChart.html">SharerChart</a></div>
+				<div><a href="./FelmalChart.html">FelamChart</a></div>
+				<div><a href="./area.html">Area</a></div>
+		  	</div>
 	  </div>
 			<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-			<div id="main" style="margin:15% 10%;width: 80%;min-height: 600px;"></div>
+			<div id="main" style="margin:15% 10% 0 10%;width: 80%; min-height: 600px; height: auto;"></div>
 	</div>
 	
     <script type="text/javascript">

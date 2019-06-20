@@ -1,81 +1,12 @@
 @charset "utf-8";
-* {
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-	}
-	#box{
-		position:relative;
-		width: 100%;
-		height: 4000px;
-	}
-	#top
-	{
-		position: fixed;
-		top: 0;
-		width: 100%;
-		min-height: 100px;
-		height: 10%;
-		background-color:#fff;
-		border-bottom: 1px solid #eee;
-		padding-top: 15px;
-		z-index: 100000;
-	} 
-	#img {
-		position: absolute;
-		float:left;	
-		height: 90px;
-		margin-left: 250px;
-	}
-	#text {
-		position: absolute;
-		color:#FF7171;
-		margin-top:-50px;
-		margin-left:80px;
-		font-size: 40px;
-		letter-spacing:5px;
-		font: italic 2em Georgia, serif;
-	}
-	
-	#HASS {
-		position: absolute;
-		width:900px;
-		height: 90px;
-		margin-left:800px;
-		margin-top: -60px;
-	}
-	
-	#HASS div{
-		float:left;
-		width:200px;
-		height:60px;
-		text-align: center;
-		font-size: 15px;
-		letter-spacing:2px;
-		line-height: 60px;
-		margin-bottom:10px;
-	}
-	
-	#HASS div:hover {
-		background-color: #eee;
-	}
-	
-	#HASS div a {
-		color: black;
-		text-decoration:none;
-		display:block;
-	}
-	
-	#HASS div:hover a:hover {
-		text-decoration:none;
-		color:#FF7171;
-	}
-	
 	#petContent {
 		position: absolute;
+		top: 200px;
 		height: 500px;
-		width:  80%;
-		margin: 200px 10%;
+		bottom: 100px;
+		width:  76%;
+		margin-left: 12%;
+		margin-right: 12%;
 	}
 	
 	#petContent1 {
@@ -84,7 +15,13 @@
 		color:#7f7f7f;
 		width: 50%;
 		height: 500px;
-		padding: 5% 10% 10% 10%;
+		padding-top: 100px;
+	}
+
+	#petContent1 p{
+		position: absolute;
+		float:left;
+		width: 90%;	
 	}
 	
 	#petContent2{
@@ -99,12 +36,14 @@
 		 border-radius:100%;	 
 	}
 	
-	
 	#bookContent {
 		position: absolute;
+		color:#7f7f7f;
 		height: 500px;
 		width:  80%;
-		margin: 800px 10%;
+		top: 800px;
+		bottom: 100px;
+		margin-left: 10%;
 	}
 
 	#bookContent2 {
@@ -113,9 +52,12 @@
 
 	#cookContent {
 		position: absolute;
+		color:#7f7f7f;
 		height: 500px;
 		width:  80%;
-		margin: 2050px 10%;
+		top: 2050px;
+		margin-left: 10%;
+		bottom: 100px;
 	}
 	
 	.topfont {
@@ -157,16 +99,18 @@
 
 	#sharerContent {
 		position: absolute;
+		color:#7f7f7f;
 		height: 500px;
 		width:  80%;
-		margin: 2850px 10%;
+		top: 2900px;
+		left: 10%;
 	}
 	
-	#footer {
+	footer {
 		position: absolute;
 		height: 300px;
 		width:  100%;
-		margin-top: 4500px;
+		margin-top: 4050px;
 		background: #FF7171;
     	fill: #FF7171;
 		opacity: 0.7;

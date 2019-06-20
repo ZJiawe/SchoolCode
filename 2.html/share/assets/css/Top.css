@@ -1,0 +1,135 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC, Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+	body{
+		width: 100%;
+		height: 100%;
+		background-color: #f9f9f9;
+	}
+
+	#box{
+		position:relative;
+		width: 100%;
+		height: auto;
+	}
+
+	#top
+	{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		min-width: 1024px;
+		height: 90px;
+		background-color:#fff;
+		border-bottom: 1px solid #eee;
+		z-index: 100000;
+	} 
+
+	#logo{
+		position: absolute;
+		margin-top: 15px;
+		left: 15%;
+	}
+
+	#text {
+		position: absolute;
+		left: 22%;
+		color:#FF7171;
+		margin-top: 30px;
+		min-height: 60px;
+		font-size: 60px;
+		letter-spacing:5px;
+		line-height: 90px;
+		font: italic 2em Georgia, serif;
+	}
+	
+#HASS {
+	position: absolute;
+	margin-left: 47%;
+	width: 50%;
+	min-height: 90px;
+}
+
+#HASS div:nth-child(1){
+	position: absolute;
+	width: 25%;
+	height: 60px;
+	margin-top: 15px;
+	left: 0%;
+	line-height: 60px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing:2px;
+	float: left;
+	font-weight: 400;
+}
+
+#HASS div:nth-child(2){
+	position: absolute;
+	width: 25%;
+	height: 60px;
+	margin-top: 15px;
+	left: 25%;
+	line-height: 60px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing:2px;
+	float: left;
+	font-weight: 400;
+}
+
+#HASS div:nth-child(3){
+	position: absolute;
+	width: 25%;
+	height: 60px;
+	margin-top: 15px;
+	left: 50%;
+	line-height: 60px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing:2px;
+	float: left;
+	font-weight: 400;
+}
+
+
+#HASS div:nth-child(4){
+	position: absolute;
+	width: 25%;
+	height: 60px;
+	margin-top: 15px;
+	left: 75%;
+	line-height: 60px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing:2px;
+	float: left;
+	font-weight: 400;
+}
+
+	#HASS div:hover {
+		background-color: #ECECEC;
+		border-radius: 15px;
+	}
+	
+	#HASS div a {
+		font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC, Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+		letter-spacing: 1px;
+		color: #090909;
+		text-decoration:none;
+		display:block;
+	}
+	
+	#HASS div:hover a:hover {
+		text-decoration:none;
+		color:#FF7171;
+	}
+
+	p{
+		font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC, Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+	}

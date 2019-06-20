@@ -5,9 +5,6 @@
 		padding: 0px;
 }
 
-body,html{
-height:100%;
-}
 
 body{
    background:url(../../img/logininback.png)  no-repeat center center;
@@ -26,7 +23,7 @@ body{
 	margin-top: 150px;
 	margin-left: 60%;
 	min-height: 500px;
-	height: auto;
+	height: 600px;
 	width: 500px;
     background: white;
     border-radius: 3px;
@@ -48,10 +45,10 @@ body{
 		font-weight: 900;
 		font-family: "Microsoft soft";
 	
-		margin: 2% 3%;
-		height: 50px;
+		margin: 4% 3%;
+		height: 60px;
 		width: 94%;
-		line-height: 50px;
+		line-height: 60px;
 		padding-right: 6%;
 		padding-left: 6%;
 		border: 1px solid  #ff7171;
@@ -84,10 +81,10 @@ body{
 		font-weight: 900;
 		font-family: "Microsoft soft";
 		background-color: #ff7171;
-		margin: 2% 3%;
-		height: 50px;
+		margin: 4% 3%;
+		height: 60px;
 		width: 82%;
-		line-height: 50px;
+		line-height: 60px;
 		padding-right: 6%;
 		padding-left: 6%;
 		border: 1px solid  #ff7171;
